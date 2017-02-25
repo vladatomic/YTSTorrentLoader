@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTS_TorrentLoader", "WPF-to-WebApi\YTS_TorrentLoader.csproj", "{8C6076FB-5CF4-4285-BC6B-C4FF38F9D886}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup1", "Setup1\Setup1.isproj", "{37225E5C-C1F8-4DC9-8AFC-6D71D44EBFE7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C6076FB-5CF4-4285-BC6B-C4FF38F9D886} = {8C6076FB-5CF4-4285-BC6B-C4FF38F9D886}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C6076FB-5CF4-4285-BC6B-C4FF38F9D886}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6076FB-5CF4-4285-BC6B-C4FF38F9D886}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{8C6076FB-5CF4-4285-BC6B-C4FF38F9D886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6076FB-5CF4-4285-BC6B-C4FF38F9D886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6076FB-5CF4-4285-BC6B-C4FF38F9D886}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6076FB-5CF4-4285-BC6B-C4FF38F9D886}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{8C6076FB-5CF4-4285-BC6B-C4FF38F9D886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6076FB-5CF4-4285-BC6B-C4FF38F9D886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6076FB-5CF4-4285-BC6B-C4FF38F9D886}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6076FB-5CF4-4285-BC6B-C4FF38F9D886}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{37225E5C-C1F8-4DC9-8AFC-6D71D44EBFE7}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{37225E5C-C1F8-4DC9-8AFC-6D71D44EBFE7}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{37225E5C-C1F8-4DC9-8AFC-6D71D44EBFE7}.Debug|Any CPU.ActiveCfg = DVD-5
+		{37225E5C-C1F8-4DC9-8AFC-6D71D44EBFE7}.Debug|Any CPU.Build.0 = DVD-5
+		{37225E5C-C1F8-4DC9-8AFC-6D71D44EBFE7}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{37225E5C-C1F8-4DC9-8AFC-6D71D44EBFE7}.DVD-5|Any CPU.Build.0 = DVD-5
+		{37225E5C-C1F8-4DC9-8AFC-6D71D44EBFE7}.Release|Any CPU.ActiveCfg = SingleImage
+		{37225E5C-C1F8-4DC9-8AFC-6D71D44EBFE7}.Release|Any CPU.Build.0 = SingleImage
+		{37225E5C-C1F8-4DC9-8AFC-6D71D44EBFE7}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{37225E5C-C1F8-4DC9-8AFC-6D71D44EBFE7}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
